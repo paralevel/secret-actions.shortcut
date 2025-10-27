@@ -2,12 +2,11 @@
 ___30+ hidden actions in Shortcuts app___
 \
 \
-\
 [Click here to install the latest signed version](https://github.com/paralevel/secret-actions.shortcut/releases)
 \
 \
 \
-__How to manually sign the shortcut from source__
+__How to sign the shortcut from source__
 
 macOS:
 ~~~
