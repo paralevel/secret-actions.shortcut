@@ -41,7 +41,7 @@ __Create New Note__ | Saves the input as a note in Evernote.<br><br>__Result__<b
 __Get Note Link (1)__ | Gets a link to the Evernote note passed into the action, which can be shared.<br><br>__In-App Link__<br><br>When enabled, an evernote:// URL will be generated, suitable for opening the note in the Evernote app.<br><br>__Result__<br>URLS<br><br>__Requires__<br>Access to your Evernote account
 __Get Note Link (2)__ | Gets a link to the Evernote note passed into the action, which can be shared.<br><br>__In-App Link__<br><br>When enabled, an evernote:// URL will be generated, suitable for opening the note in the Evernote app.<br><br>__Result__<br>URLS<br><br>__Requires__<br>Access to your Evernote account
 __Delete Notes__ | Deletes the notes passed as input from Evernote.<br><br>__Requires__<br>Access to your Evernote account
-__Append to Evernote__ | Finds a note using the specified criteria and appends the input to the note.<br><br>__Note Title__<br>The title (or part of the title) of the note to append to<br><br>__Result__<br>Evernote note<br><br>__Requires__<br>Access to your Evernote account<br><br>
+__Append to Evernote__ | Finds a note using the specified criteria and appends the input to the note.<br><br>__Note Title__<br>The title (or part of the title) of the note to append to<br><br>__Result__<br>Evernote note<br><br>__Requires__<br>Access to your Evernote account
 
 \
 \
