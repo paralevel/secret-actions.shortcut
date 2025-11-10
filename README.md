@@ -8,8 +8,8 @@ Shortcut for iOS and macOS that contains 30+ hidden actions
 \
 ___Full list of actions___
 <br>
-| Name | Description |
-| --- | --- |
+| _Name_ | _Description_ |
+| :--- | :--- |
 __Lock App__ | Changes whether the selected application is locked. Locked apps require authentication to access.
 __Update AUTOBRIGHTNESS__ <sup>iOS</sup> | Change the AUTOBRIGHTNESS value of AUTOBRIGHTNESS<br><br>__Result__<br>Auto-Brightness
 __Update BOLD_TEXT__ <sup>iOS</sup> | Change the BOLD_TEXT value of BOLD_TEXT<br><br>__Result__<br>Bold Text
@@ -57,7 +57,8 @@ iOS: Use RoutineHub's signing service
 \
 \
 \
-___How hidden Shortcuts actions can be found___
+\
+___How to find hidden Shortcuts actions___
 </br>
 </br>
 1. Copy for example the hidden action in the following shortcut to the clipboard: https://www.reddit.com/r/ios/comments/1h8akxn/comment/m0sgf4d/
