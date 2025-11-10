@@ -2,11 +2,11 @@
 Shortcut for iOS and macOS that contains 30+ hidden actions
 \
 \
-[Click here to install the latest signed version](https://github.com/paralevel/secret-actions.shortcut/releases)
+[__Install latest version__](https://github.com/paralevel/secret-actions.shortcut/releases)
 \
 \
 \
-___How to sign the shortcut from source___
+___Sign the shortcut from source___
 </br>
 </br>
 macOS:
