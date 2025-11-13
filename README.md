@@ -214,6 +214,7 @@ shortcuts sign -m anyone -i Secret\ Actions.unsigned.shortcut -o Secret\ Actions
 
 iOS:
 \
+\
 &emsp;Use RoutineHub's signing service
 
 <br>
