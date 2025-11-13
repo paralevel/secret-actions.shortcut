@@ -212,7 +212,9 @@ macOS:
 shortcuts sign -m anyone -i Secret\ Actions.unsigned.shortcut -o Secret\ Actions.shortcut
 ~~~
 
-iOS: Use RoutineHub's signing service
+iOS:
+\
+&emsp;Use RoutineHub's signing service
 
 <br>
 
