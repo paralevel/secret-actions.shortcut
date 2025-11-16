@@ -1,81 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>WFQuickActionSurfaces</key>
-	<array/>
-	<key>WFWorkflowActions</key>
-	<array>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.comment</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>WFCommentActionText</key>
-				<string>Last updated 2025-11-16 17:11 UTC
-
-https://github.com/paralevel</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>WFWorkflowActionIdentifier</key>
-			<string>is.workflow.actions.runapplescript</string>
-			<key>WFWorkflowActionParameters</key>
-			<dict>
-				<key>Script</key>
-				<string>tell application "System Events"	tell application "System Settings" to set prevpane to current pane	tell process "System Settings" to set modals to count items in (sheets of windows)	set reslist to (do shell script "defaults read com.apple.Displays-Settings.extension showListByDefault") as number	if modals is not 0 or reslist is 0 then		try			tell application "System Settings" to quit			repeat while application "System Settings" is running				delay 0.5			end repeat		end try		if reslist is 0 then			do shell script "defaults write com.apple.Displays-Settings.extension showListByDefault -bool true"		end if	end if	tell application "System Settings"		run		reveal pane id "com.apple.Displays-Settings.extension"	end tell	repeat until exists window "Displays" of process "System Settings"		delay 0.5	end repeat	tell process "System Settings"		set showall to checkbox 1 of group 1 of scroll area 2 of group 1 of group 3 of splitter group 1 of group 1 of window "Displays"		if value of showall is 0 then			click showall		end if		set rowlist to (rows of outline 1 of scroll area 1 of group 1 of scroll area 2 of group 1 of group 3 of splitter group 1 of group 1 of window "Displays")		repeat with sel from 1 to (count rowlist)			if selected of item sel of rowlist is true then exit repeat		end repeat		set selrow to item sel of rowlist		repeat with def from 1 to (count rowlist)			if value of static text 1 of UI element 1 of item def of rowlist contains "Default" then exit repeat		end repeat		set defrow to item def of rowlist		set nextrow to item (def + 1) of rowlist		if selrow is defrow then			select nextrow		else			select defrow		end if	end tell	tell application "System Settings" to reveal prevpaneend tell</string>
-				<key>UUID</key>
-				<string>453E5D3B-A5BD-42C9-9B5F-7E318328683E</string>
-			</dict>
-		</dict>
-	</array>
-	<key>WFWorkflowClientVersion</key>
-	<string>4042.0.4</string>
-	<key>WFWorkflowHasOutputFallback</key>
-	<false/>
-	<key>WFWorkflowHasShortcutInputVariables</key>
-	<false/>
-	<key>WFWorkflowIcon</key>
-	<dict>
-		<key>WFWorkflowIconGlyphNumber</key>
-		<integer>59436</integer>
-		<key>WFWorkflowIconStartColor</key>
-		<integer>4282601983</integer>
-	</dict>
-	<key>WFWorkflowImportQuestions</key>
-	<array/>
-	<key>WFWorkflowInputContentItemClasses</key>
-	<array>
-		<string>WFAppContentItem</string>
-		<string>WFAppStoreAppContentItem</string>
-		<string>WFArticleContentItem</string>
-		<string>WFContactContentItem</string>
-		<string>WFDateContentItem</string>
-		<string>WFEmailAddressContentItem</string>
-		<string>WFFolderContentItem</string>
-		<string>WFGenericFileContentItem</string>
-		<string>WFImageContentItem</string>
-		<string>WFiTunesProductContentItem</string>
-		<string>WFLocationContentItem</string>
-		<string>WFDCMapsLinkContentItem</string>
-		<string>WFAVAssetContentItem</string>
-		<string>WFPDFContentItem</string>
-		<string>WFPhoneNumberContentItem</string>
-		<string>WFRichTextContentItem</string>
-		<string>WFSafariWebPageContentItem</string>
-		<string>WFStringContentItem</string>
-		<string>WFURLContentItem</string>
-	</array>
-	<key>WFWorkflowMinimumClientVersion</key>
-	<integer>900</integer>
-	<key>WFWorkflowMinimumClientVersionString</key>
-	<string>900</string>
-	<key>WFWorkflowOutputContentItemClasses</key>
-	<array/>
-	<key>WFWorkflowTypes</key>
-	<array>
-		<string>Watch</string>
-		<string>WFWorkflowTypeShowInSearch</string>
-	</array>
-</dict>
-</plist>
