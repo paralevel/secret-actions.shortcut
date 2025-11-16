@@ -233,6 +233,6 @@ iOS:
 
 6. Convert the clipboard content to a pasteable action with the following shortcut (requires Actions app): https://www.icloud.com/shortcuts/49dfc2487764413a88c1329703dd76d1
 
-7. Paste the converted action in the clipboard into a shortcut
+7. Paste the converted action that's now in the clipboard into a shortcut
 
 You've now unlocked the hidden _Toggle Bold Text_ action
