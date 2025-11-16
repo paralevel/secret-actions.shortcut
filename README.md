@@ -1,5 +1,5 @@
 # Secret Actions (shortcut)
-Shortcut for iOS and macOS that contains 30+ hidden actions
+Shortcut for iOS and macOS that contains 30+ hidden, built-in actions
 \
 \
 [__Install latest version__](https://github.com/paralevel/secret-actions.shortcut/releases)
@@ -8,7 +8,7 @@ Shortcut for iOS and macOS that contains 30+ hidden actions
 
 ### List of actions
 
-_Name and description taken from the action’s Get Info content_
+_(Name and description taken from the action’s Get Info dialog)_
 
 <br>
 
