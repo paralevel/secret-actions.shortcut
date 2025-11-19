@@ -206,11 +206,12 @@ _(Name and description taken from the action’s Get Info dialog)_
 <br>
 
 ### Sign the shortcut from source
-
+###
 macOS:
 ~~~
 shortcuts sign -m anyone -i unsigned.shortcut -o signed.shortcut
 ~~~
+<sup>_The command succeeds despite the errors (which aren't related to this particular shortcut)_</sup>
 
 iOS:
 \
@@ -220,7 +221,7 @@ iOS:
 <br>
 
 ### How to find hidden Shortcuts actions
-
+###
 1. Copy for example the hidden action in the following shortcut to the clipboard: https://www.reddit.com/r/ios/comments/1h8akxn/comment/m0sgf4d/
 
 3. Convert the action in the clipboard to source with this shortcut: https://www.icloud.com/shortcuts/65d36be39c5a49cc8121e4ea652b606e
@@ -234,5 +235,5 @@ iOS:
 6. Convert the clipboard content to a pasteable action with the following shortcut (requires Actions app): https://www.icloud.com/shortcuts/49dfc2487764413a88c1329703dd76d1
 
 7. Paste the converted action that's now in the clipboard into a shortcut
-
+###
 You've now unlocked the hidden _Toggle Bold Text_ action
