@@ -209,7 +209,7 @@ _(Name and description taken from the action’s Get Info dialog)_
 
 macOS:
 ~~~
-shortcuts sign -m anyone -i 'Secret Actions (unsigned).shortcut' -o 'Secret Actions.shortcut'
+shortcuts sign -m anyone -i unsigned.shortcut -o signed.shortcut
 ~~~
 
 iOS:
