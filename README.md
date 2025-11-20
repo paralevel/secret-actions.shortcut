@@ -237,3 +237,6 @@ iOS:
 7. Paste it into a shortcut
 ###
 You've now reconstructed the unofficial _Toggle Bold Text_ action
+<br>
+<br>
+<br>
